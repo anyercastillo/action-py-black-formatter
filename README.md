@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: anyercastillo/action-py-black-formatter@v2.1
+      - uses: anyercastillo/action-py-black-formatter@main
         with:
           check_mode: "true"
 ```
